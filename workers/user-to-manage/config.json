@@ -1,0 +1,20 @@
+{
+  "development": {
+    "services": {
+      "localhost": {
+        "url": "localhost",
+        "port": 3000
+      }
+    }
+  },
+  "production": {
+    "services": {
+      "localhost": {
+        "url": "localhost",
+        "port": 8081
+      }
+    }
+  }
+}
+
+

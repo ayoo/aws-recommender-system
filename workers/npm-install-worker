@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ -z $1 ]
+then
+    echo 'Please provide a worker name'
+    echo './npm-install-worker user-to-manage'
+    exit
+fi
+
+echo 'Worker: ' $1
+
+echo "rm -rf node_modules"
+rm -rf node_modules
+
+if [ -e "$1/package.json" ]
+then
+    echo "cp $1/package.json ."
+    cp $1/package.json .
+else
+    echo "cp package.json.minimum package.json"
+    cp package.json.minimum package.json
+fi
+
+echo 'npm install'
+npm install

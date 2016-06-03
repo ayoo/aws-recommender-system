@@ -1,0 +1,5 @@
+version: 1
+cron:
+    - name: "Scheduler"
+      url: "/start"
+      schedule: "00 18 * * * *"

@@ -1,0 +1,15 @@
+{
+  "name": "AwsRec-Test-Handler",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "awsrec": "file:../../lib-awsrec",
+    "node-uuid": "^1.4.3",
+    "q": "^1.4.1",
+    "request": "^2.61.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1.50"
+  }
+}

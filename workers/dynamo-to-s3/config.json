@@ -1,0 +1,34 @@
+{
+  "development": {
+    "services": {
+      "localhost": {
+        "url": "localhost",
+        "port": 3000
+      },
+      "aws": {
+        "access_key_id": "",
+        "secret_access_key": "",
+        "region": "",
+        "drivers": ["DYNAMODB", "S3"],
+        "s3_bucket": "project.awsrec.data"
+      }
+    }
+  },
+  "production": {
+    "services": {
+      "localhost": {
+        "url": "localhost",
+        "port": 8081
+      },
+      "aws": {
+        "access_key_id": "",
+        "secret_access_key": "",
+        "region": "",
+        "drivers": ["DYNAMODB", "S3"],
+        "s3_bucket": "project.awsrec.data"
+      }
+    }
+  }
+}
+
+

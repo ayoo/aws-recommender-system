@@ -1,0 +1,13 @@
+{
+  "name": "AwsRec-Test-Worker",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "lib-utils": "file:../lib-utils"
+  }
+}

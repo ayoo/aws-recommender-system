@@ -1,0 +1,207 @@
+Downloading data..
+Downloading finished..
+Loading data to SVD module
+Energey level : 90.0 %
+Stating to compute SVD at  2015-09-24 03:46:34
+SVD model saved at  2015-09-24 03:47:34
+Traceback (most recent call last):
+  File ".//awsrec/computer.py", line 53, in <module>
+    ids_type = sys.argv[8]
+IndexError: list index out of range
+python: can't open file '/awsrec/computer.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File ".//awsrec/computer.py", line 53, in <module>
+    ids_type = sys.argv[8]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File ".//awsrec/computer.py", line 53, in <module>
+    ids_type = sys.argv[8]
+IndexError: list index out of range
+Downloading data..
+Downloading finished..
+Loading data to SVD module
+Energey level : 90.0 %
+Stating to compute SVD at  2015-09-27 09:54:10
+SVD model saved at  2015-09-27 09:56:18
+Downloading data..
+Downloading finished..
+Loading data to SVD module
+Energey level : 90.0 %
+Stating to compute SVD at  2015-09-27 10:15:24
+SVD model saved at  2015-09-27 10:16:28
+Downloading data..
+Downloading finished..
+Loading data to SVD module
+Energey level : 90.0 %
+Traceback (most recent call last):
+  File ".//awsrec/computer.py", line 76, in <module>
+    compute(aws_region, s3_bucket, filename, sep, col_index, row_index, value_index, ids_type)
+  File ".//awsrec/computer.py", line 23, in compute
+    k = derive_latent_dimensions(svd, energy_level=0.9)
+  File ".//awsrec/computer.py", line 55, in derive_latent_dimensions
+    U, Sigma, VT= la.svd(np.mat(sparse_matrix))
+  File "/Library/Python/2.7/site-packages/numpy/linalg/linalg.py", line 1327, in svd
+    u, s, vt = gufunc(a, signature=signature, extobj=extobj)
+TypeError: float() argument must be a string or a number
+Loading data to SVD module
+Energey level : 90.0 %
+Traceback (most recent call last):
+  File ".//awsrec/computer.py", line 76, in <module>
+    compute(aws_region, s3_bucket, filename, sep, col_index, row_index, value_index, ids_type)
+  File ".//awsrec/computer.py", line 23, in compute
+    k = derive_latent_dimensions(svd, energy_level=0.9)
+  File ".//awsrec/computer.py", line 60, in derive_latent_dimensions
+    while current_energy <= total_energy:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Loading data to SVD module
+Energey level : 90.0 %
+Best iter step # 3200
+Stating to compute SVD at  2015-09-27 10:48:30
+Loading data to SVD module
+Energey level : 90.0 %
+Best iter step # 3200
+Stating to compute SVD at  2015-09-27 10:53:30
+Loading data to SVD module
+Energey level : 90.0 %
+cur dim size  50
+cur dim size  100
+cur dim size  200
+cur dim size  400
+cur dim size  800
+cur dim size  1600
+Best iter step # 3200
+Stating to compute SVD at  2015-09-27 10:58:35
+Loading data to SVD module
+Loading data to SVD module
+Loading data to SVD module
+Loading data to SVD module
+Energey level : 90.0 %
+Energey level : 90.0 %
+Energey level : 90.0 %
+Energey level : 90.0 %
+Loading data to SVD module
+Energey level : 90.0 %
+cur dim size  50
+cur dim size  100
+cur dim size  150
+cur dim size  200
+cur dim size  250
+cur dim size  300
+cur dim size  350
+cur dim size  400
+cur dim size  450
+cur dim size  500
+cur dim size  550
+cur dim size  600
+cur dim size  650
+cur dim size  700
+cur dim size  750
+cur dim size  800
+cur dim size  850
+cur dim size  900
+Derived dimension size # 950
+Stating to compute SVD at  2015-09-27 11:03:06
+SVD model saved at  2015-09-27 11:05:32
+Loading data to SVD module
+Energey level : 90.0 %
+cur dim size  50
+Derived dimension size # 50
+Stating to compute SVD at  2015-09-27 11:08:04
+SVD model saved at  2015-09-27 11:09:06
+Loading data to SVD module
+Energey level : 90.0 %
+cur dim size  50
+cur dim size  100
+cur dim size  150
+cur dim size  200
+cur dim size  250
+cur dim size  300
+cur dim size  350
+cur dim size  400
+cur dim size  450
+cur dim size  500
+cur dim size  550
+cur dim size  600
+cur dim size  650
+cur dim size  700
+cur dim size  750
+cur dim size  800
+cur dim size  850
+cur dim size  900
+Derived dimension size # 900
+Stating to compute SVD at  2015-09-27 11:10:43
+Loading data to SVD module
+Energey level : 90.0 %
+cur dim size  50
+cur dim size  100
+cur dim size  150
+cur dim size  200
+cur dim size  250
+cur dim size  300
+cur dim size  350
+cur dim size  400
+cur dim size  450
+cur dim size  500
+cur dim size  550
+cur dim size  600
+cur dim size  650
+cur dim size  700
+cur dim size  750
+cur dim size  800
+cur dim size  850
+cur dim size  900
+Derived dimension size # 900
+Stating to compute SVD at  2015-09-27 11:12:51
+SVD model saved at  2015-09-27 11:15:00
+Loading data to SVD module
+Energey level : 90.0 %
+Total energy:  12670614.9
+cur dim size  50 ,  current_energy:  6982042.5677
+cur dim size  100 ,  current_energy:  7836610.53071
+cur dim size  150 ,  current_energy:  8486509.29456
+cur dim size  200 ,  current_energy:  9033597.66991
+cur dim size  250 ,  current_energy:  9510773.57262
+cur dim size  300 ,  current_energy:  9932614.35155
+cur dim size  350 ,  current_energy:  10309597.4601
+cur dim size  400 ,  current_energy:  10647869.9073
+cur dim size  450 ,  current_energy:  10952729.7324
+cur dim size  500 ,  current_energy:  11229045.0148
+cur dim size  550 ,  current_energy:  11479990.1981
+cur dim size  600 ,  current_energy:  11708142.5974
+cur dim size  650 ,  current_energy:  11916048.0532
+cur dim size  700 ,  current_energy:  12105829.5134
+cur dim size  750 ,  current_energy:  12279047.8442
+cur dim size  800 ,  current_energy:  12437516.8869
+cur dim size  850 ,  current_energy:  12582306.8076
+cur dim size  900 ,  current_energy:  12714993.4339
+Derived dimension size # 900
+Stating to compute SVD at  2015-09-27 11:27:03
+Loading data to SVD module
+Energey level : 90.0 %
+Total energy:  12670614.9
+cur dim size  50 ,  current_energy:  6982042.5677
+cur dim size  100 ,  current_energy:  7836610.53071
+cur dim size  150 ,  current_energy:  8486509.29456
+cur dim size  200 ,  current_energy:  9033597.66991
+cur dim size  250 ,  current_energy:  9510773.57262
+cur dim size  300 ,  current_energy:  9932614.35155
+cur dim size  350 ,  current_energy:  10309597.4601
+cur dim size  400 ,  current_energy:  10647869.9073
+cur dim size  450 ,  current_energy:  10952729.7324
+cur dim size  500 ,  current_energy:  11229045.0148
+cur dim size  550 ,  current_energy:  11479990.1981
+cur dim size  600 ,  current_energy:  11708142.5974
+cur dim size  650 ,  current_energy:  11916048.0532
+cur dim size  700 ,  current_energy:  12105829.5134
+cur dim size  750 ,  current_energy:  12279047.8442
+cur dim size  800 ,  current_energy:  12437516.8869
+cur dim size  850 ,  current_energy:  12582306.8076
+cur dim size  900 ,  current_energy:  12714993.4339
+Derived dimension size # 850
+Stating to compute SVD at  2015-09-27 11:29:12
+SVD model saved at  2015-09-27 11:29:33
+Loading data to SVD module
+Energey level : 60.0 %
+Derived dimension size # 100
+Stating to compute SVD at  2015-09-27 11:33:14
+SVD model saved at  2015-09-27 11:34:19
